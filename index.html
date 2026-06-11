@@ -1,0 +1,313 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <title>TECOMLIGHT® | LED Under Cabinet Lighting | Shop LED Desk Lamp</title>
+  <meta name="description" content="TECOMLIGHT — Make Your Every Moment Brighter. Premium LED under cabinet lights, wall sconces, desk lamps and smart lighting solutions.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preload" as="image" href="images/images-home-1.jpg" fetchpriority="high">
+</head>
+<body data-page="home">
+
+  <div class="announcement-bar">
+    <p>Make Your Every Moment Brighter</p>
+  </div>
+
+  <header class="header" id="header">
+    <div class="header-inner">
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <a href="index.html" class="logo">TECOMLIGHT</a>
+      <nav class="nav-desktop">
+        <ul class="nav-list">
+          <li><a href="new-releases.html" data-nav="new-releases">New Releases</a></li>
+          <li><a href="best-selling.html" data-nav="best-selling">Best Selling</a></li>
+          <li class="has-dropdown">
+            <a href="under-cabinet.html">Shop by Category <svg width="10" height="6" viewBox="0 0 10 6"><path d="M1 1l4 4 4-4" stroke="currentColor" fill="none" stroke-width="1.5"/></svg></a>
+            <ul class="dropdown">
+              <li><a href="under-cabinet.html" data-nav="under-cabinet">Under Cabinet Lights</a></li>
+              <li><a href="wall-lights.html" data-nav="wall-lights">Wall Lights</a></li>
+              <li><a href="picture-lights.html" data-nav="picture-lights">Picture &amp; Display Lights</a></li>
+              <li><a href="outdoor.html" data-nav="outdoor">Outdoor Lighting</a></li>
+            </ul>
+          </li>
+          <li><a href="clearance.html" data-nav="clearance" class="nav-sale">Clearance Sale</a></li>
+          <li><a href="about.html" data-nav="about">About Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="searchBtn" aria-label="Search">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3-3"/></svg>
+        </button>
+        <button class="icon-btn" id="accountBtn" aria-label="Account">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+        </button>
+        <button class="icon-btn cart-btn" id="cartBtn" aria-label="Cart">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 6h15l-1.5 9H7.5L6 6z"/><circle cx="9" cy="20" r="1"/><circle cx="18" cy="20" r="1"/><path d="M6 6L5 3H2"/></svg>
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-nav" id="mobileNav">
+    <div class="mobile-nav-header">
+      <span class="logo">TECOMLIGHT</span>
+      <button class="close-btn" id="closeMobileNav" aria-label="Close menu">&times;</button>
+    </div>
+    <ul class="mobile-nav-list">
+      <li><a href="new-releases.html">New Releases</a></li>
+      <li><a href="best-selling.html">Best Selling</a></li>
+      <li>
+        <button class="mobile-accordion" data-target="catMenu">Shop by Category <svg width="10" height="6" viewBox="0 0 10 6"><path d="M1 1l4 4 4-4" stroke="currentColor" fill="none" stroke-width="1.5"/></svg></button>
+        <ul class="mobile-submenu" id="catMenu">
+          <li><a href="under-cabinet.html">Under Cabinet Lights</a></li>
+          <li><a href="wall-lights.html">Wall Lights</a></li>
+          <li><a href="picture-lights.html">Picture &amp; Display Lights</a></li>
+          <li><a href="outdoor.html">Outdoor Lighting</a></li>
+        </ul>
+      </li>
+      <li><a href="clearance.html" class="nav-sale">Clearance Sale</a></li>
+      <li><a href="about.html">About Us</a></li>
+    </ul>
+  </div>
+  <div class="overlay" id="overlay"></div>
+
+  <section class="hero" id="hero">
+    <div class="hero-slider" id="heroSlider">
+      <div class="hero-slide active">
+        <img class="hero-slide-img" src="images/images-home-1.jpg" alt="" aria-hidden="true" fetchpriority="high" decoding="async">
+        <div class="hero-content">
+          <span class="hero-tag">New Collection</span>
+          <h1>Wireless Under Cabinet Lighting</h1>
+          <p>Touch Activated · USB-C rechargeable · Magnetic Mount</p>
+          <a href="under-cabinet.html" class="btn btn-primary">Shop Now</a>
+        </div>
+      </div>
+      <div class="hero-slide">
+        <img class="hero-slide-img" data-src="images/images-home-2.jpg" alt="" aria-hidden="true" decoding="async">
+        <div class="hero-content">
+          <span class="hero-tag">Best Seller</span>
+          <h1>Cordless Wall Sconces</h1>
+          <p>Detachable Battery · Touch &amp; remote control · 3 color temps</p>
+          <a href="wall-lights.html" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+      <div class="hero-slide">
+        <img class="hero-slide-img" data-src="images/images-t036-wh6-1.jpg" alt="" aria-hidden="true" decoding="async">
+        <div class="hero-content">
+          <span class="hero-tag">Desk Essentials</span>
+          <h1>Minimal LED Desk Lamps</h1>
+          <p>Wireless charging · Bluetooth speaker · Warm ambient glow</p>
+          <a href="best-selling.html" class="btn btn-primary">Discover</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-dots" id="heroDots"></div>
+    <button class="hero-arrow hero-prev" id="heroPrev" aria-label="Previous slide">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <button class="hero-arrow hero-next" id="heroNext" aria-label="Next slide">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+    </button>
+  </section>
+
+  <section class="section collections" id="collections">
+    <div class="container">
+      <h2 class="section-title">Shop By Collection</h2>
+      <div class="collection-grid">
+        <a href="best-selling.html" class="collection-card">
+          <img src="images/best%20sellers.jpg" alt="Best Sellers" loading="lazy" decoding="async">
+          <span>Best Sellers</span>
+        </a>
+        <a href="new-releases.html" class="collection-card">
+          <img src="images/images-wh6-1.jpg" alt="New Releases" loading="lazy" decoding="async">
+          <span>New Releases</span>
+        </a>
+        <a href="under-cabinet.html" class="collection-card">
+          <img src="images/Under%20Cabinet%20Lights.jpg" alt="Under Cabinet Lights" loading="lazy" decoding="async">
+          <span>Under Cabinet Lights</span>
+        </a>
+        <a href="outdoor.html" class="collection-card">
+          <img src="images/outdoor%20lighting.jpg" alt="Outdoor Lighting" loading="lazy" decoding="async">
+          <span>Outdoor Lighting</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section clearance" id="clearance">
+    <div class="container">
+      <h2 class="section-title">Clearance Sales</h2>
+      <div class="countdown" id="countdown">
+        <div class="countdown-item"><span class="countdown-value" id="cdDays">00</span><span class="countdown-label">Days</span></div>
+        <span class="countdown-sep">:</span>
+        <div class="countdown-item"><span class="countdown-value" id="cdHours">00</span><span class="countdown-label">Hours</span></div>
+        <span class="countdown-sep">:</span>
+        <div class="countdown-item"><span class="countdown-value" id="cdMins">00</span><span class="countdown-label">Mins</span></div>
+        <span class="countdown-sep">:</span>
+        <div class="countdown-item"><span class="countdown-value" id="cdSecs">00</span><span class="countdown-label">Secs</span></div>
+      </div>
+      <p class="clearance-cta"><a href="clearance.html" class="btn btn-primary">Shop Clearance</a></p>
+    </div>
+  </section>
+
+  <section class="section products" id="best-selling">
+    <div class="container">
+      <h2 class="section-title">Your Easy Home Light</h2>
+      <div class="product-grid" id="productGrid"></div>
+      <p class="section-cta"><a href="all-products.html" class="btn btn-outline">View All Products</a></p>
+    </div>
+  </section>
+
+  <section class="section about" id="about">
+    <div class="container about-grid">
+      <div class="about-text">
+        <h2 class="section-title">About TECOMLIGHT</h2>
+        <p>TECOMLIGHT is dedicated to bringing intelligent, energy-efficient LED lighting into every home. From wireless under-cabinet puck lights to multi-function desk lamps, we design products that combine modern aesthetics with everyday practicality.</p>
+        <p>Our mission is simple: make your every moment brighter with warmth, clarity, and innovation.</p>
+        <a href="about.html" class="btn btn-outline">Learn More</a>
+      </div>
+      <div class="about-image">
+        <img src="images/tecomlight.jpg" alt="TECOMLIGHT lighting in a modern kitchen" loading="lazy" decoding="async">
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="all-products.html">All Products</a></li>
+          <li><a href="best-selling.html">Best Selling</a></li>
+          <li><a href="under-cabinet.html">Under Cabinet Lights</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Customer Service</h4>
+        <ul>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="#">Shipping Policy</a></li>
+          <li><a href="#">Refund Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>About TECOMLIGHT</h4>
+        <ul>
+          <li><a href="about.html">Our Brand</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Knowledge Base</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Partnership Programs</h4>
+        <ul>
+          <li><a href="#">Join Our Affiliate Program</a></li>
+          <li><a href="#">Enterprise Cooperation</a></li>
+        </ul>
+      </div>
+      <div class="footer-col footer-newsletter">
+        <h4>Newsletter</h4>
+        <p>Subscribe for a 10% discount, first to grab new arrivals and exclusive offers!</p>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" placeholder="Your email" required aria-label="Email address">
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <div class="payment-icons">
+          <span class="pay-icon">Visa</span>
+          <span class="pay-icon">Mastercard</span>
+          <span class="pay-icon">PayPal</span>
+          <span class="pay-icon">Apple Pay</span>
+          <span class="pay-icon">Google Pay</span>
+          <span class="pay-icon">Shop Pay</span>
+        </div>
+        <p class="copyright">&copy; 2026 TECOMLIGHT all rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <nav class="mobile-bottom-bar">
+    <a href="index.html" class="mb-item active">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+      <span>Home</span>
+    </a>
+    <a href="best-selling.html" class="mb-item">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+      <span>Shop</span>
+    </a>
+    <button class="mb-item" id="mbSearch">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3-3"/></svg>
+      <span>Search</span>
+    </button>
+    <button class="mb-item cart-btn" id="mbCart">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 6h15l-1.5 9H7.5L6 6z"/><circle cx="9" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg>
+      <span>Cart</span>
+      <span class="cart-count mb-cart-count" id="mbCartCount">0</span>
+    </button>
+  </nav>
+
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="cart-header">
+      <h3>Cart</h3>
+      <button class="close-btn" id="closeCart" aria-label="Close cart">&times;</button>
+    </div>
+    <div class="cart-body" id="cartBody">
+      <div class="cart-empty" id="cartEmpty">
+        <p>Your cart is empty</p>
+        <a href="best-selling.html" class="btn btn-primary" id="startShopping">Start shopping</a>
+      </div>
+      <ul class="cart-items" id="cartItems"></ul>
+    </div>
+    <div class="cart-footer" id="cartFooter" hidden>
+      <div class="cart-total"><span>Subtotal</span><span id="cartTotal">$0.00</span></div>
+      <button class="btn btn-primary btn-full">Checkout</button>
+    </div>
+  </aside>
+
+  <div class="search-modal" id="searchModal">
+    <div class="search-modal-inner">
+      <button class="close-btn search-close" id="closeSearch" aria-label="Close search">&times;</button>
+      <input type="text" class="search-input" id="searchInput" placeholder="Search products..." autocomplete="off">
+      <div class="search-results" id="searchResults"></div>
+    </div>
+  </div>
+
+  <div class="quick-view-modal" id="quickViewModal">
+    <div class="quick-view-inner" id="quickViewContent"></div>
+  </div>
+
+  <div class="cookie-banner" id="cookieBanner">
+    <div class="cookie-inner">
+      <p>Cookie policy — I agree to the processing of my data in accordance with the conditions set out in the <a href="privacy-policy.html">Privacy Policy</a>.</p>
+      <div class="cookie-actions">
+        <button class="btn btn-primary btn-sm" id="cookieAccept">Accept</button>
+        <button class="btn btn-outline btn-sm" id="cookieDecline">Decline</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>
+
+
+
